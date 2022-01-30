@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.54de1529.css",
+    "main.js": "/react-portfolio/static/js/main.0a162944.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/leaguespartanui_bold.ttf": "/react-portfolio/static/media/leaguespartanui_bold.1c3f7d559cd227e66fa9.ttf",
+    "static/media/github.svg": "/react-portfolio/static/media/github.e0784af8c9d01d0e733c472e8d787871.svg",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.7b41b5d8bac2f461534b3471650d1881.svg",
+    "static/media/logo-white.svg": "/react-portfolio/static/media/logo-white.4f8b311e66825813d54002cfa1e0e486.svg",
+    "static/media/telegram.svg": "/react-portfolio/static/media/telegram.457c87be6adb95071c86216cf51cad7a.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/linkedin.svg": "/react-portfolio/static/media/linkedin.ebddf959d9aaf4b8aa742ef71d15964c.svg",
+    "main.54de1529.css.map": "/react-portfolio/static/css/main.54de1529.css.map",
+    "main.0a162944.js.map": "/react-portfolio/static/js/main.0a162944.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54de1529.css",
+    "static/js/main.0a162944.js"
+  ]
+}
