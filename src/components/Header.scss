@@ -1,0 +1,31 @@
+.logo {
+  width: 60px;
+  height: 60px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.logo-href {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 10px 0;
+
+  li {
+    padding: 10px 0;
+    position: relative;
+    color: #b0b2c3;
+
+    + li {
+      margin-left: 40px;
+    }
+  }
+}
