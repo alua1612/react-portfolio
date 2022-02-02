@@ -32,3 +32,42 @@
     transform: rotate(360deg);
   }
 }
+
+.hovered {
+  a {
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: #f3f3f3;
+    text-decoration: none;
+  }
+
+  a:after {
+    background-color: #f25757;
+    transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1);
+  }
+
+  a:before {
+    background-color: #235aa6;
+    transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1) 0.15s;
+  }
+
+  a:after,
+  a:before {
+    content: "";
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    left: auto;
+    width: 0;
+    height: 3px;
+    z-index: 2;
+  }
+
+  a:hover:before,
+  a:hover::after {
+    width: 100%;
+    left: 0;
+  }
+}

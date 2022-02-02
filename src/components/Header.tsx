@@ -12,14 +12,14 @@ export default function Header() {
                 <img src={logo} className='logo'/>
                 <div className='navbar'>
                     <nav>
-                        <ul className='list'>
-                            <li>Case studies
+                        <ul className='list hovered'>
+                            <li><a>Case studies</a>
                             {/* <Link to="/">Case studies</Link> */}
                             </li>
-                            <li>Experiments
+                            <li><a>Experiments</a>
                             {/* <Link to="/about">Experiments</Link> */}
                             </li>
-                            <li>Contact
+                            <li><a>Contact</a>
                             {/* <Link to="/users">Contact</Link> */}
                             </li>
                         </ul>
