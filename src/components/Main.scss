@@ -57,6 +57,8 @@
 .social-links {
   display: flex;
   flex-direction: column;
+  right: 32px;
+  position: absolute;
 
   a {
     margin: 15px 0;

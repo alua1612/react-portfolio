@@ -8,7 +8,7 @@ import logo from '../images/logo-white.svg';
 export default function Header() {
     return (
         <div className='container'>
-            <a className='logo-href'>
+            <div className='logo-href'>
                 <img src={logo} className='logo'/>
                 <div className='navbar'>
                     <nav>
@@ -25,7 +25,7 @@ export default function Header() {
                         </ul>
                     </nav>
                 </div>
-            </a>
+            </div>
         </div>
     )
 }

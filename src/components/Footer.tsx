@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <div className='footer'>
             <img src={logo} className='logo'/>
-            <div className='social-links hovered'>
+            <div className='social hovered'>
                 <a>Telegram</a>
                 <a>LinkedIn</a>
                 <a>Github</a>

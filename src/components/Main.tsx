@@ -16,19 +16,20 @@ export default function Main() {
                         <p className='subtitle'>Mobile Developer</p>
                         <button className='about-btn'>About Me</button>
                     </div>
-                    <div className='social-links'>
-                        <a>
-                            <img src={telegram}/>
-                        </a>
-                        <a>
-                            <img src={linkedin}/>
-                        </a>
-                        <a>
-                            <img src={github}/>
-                        </a>
-                    </div>
+                </div>
+                <div className='social-links'>
+                    <a>
+                        <img src={telegram}/>
+                    </a>
+                    <a>
+                        <img src={linkedin}/>
+                    </a>
+                    <a>
+                        <img src={github}/>
+                    </a>
                 </div>
             </div>
+            
         </div>
     )
 }
